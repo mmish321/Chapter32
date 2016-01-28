@@ -1,0 +1,48 @@
+1. 
+class Box
+double length
+double width
+double heigth
+Box (double side)
+double volume()
+double area()
+
+
+2. Box box = new box(2.5,5.0,6.0)
+
+System.out.println("area" + box.area() + "volume" + box.volume())
+
+3.
+class Box
+instance variables
+constructor
+methods
+
+4.
+double length;
+double width;
+double height;
+
+5.
+Box( double width, double length, double height)
+this.width = width
+this.height = height
+this.length = length
+
+Box(side) 
+width = side
+length = side
+heigth = side
+
+double volume()
+return width * height * length
+
+7.
+return 2 * (width * height) + (width * length) + (height * length)
+
+8.Box box2 = new Box (3.0)
+
+9. javac Box.java
+javac BoxTester.java
+
+10.BoxTester
